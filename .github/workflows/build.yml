@@ -32,7 +32,7 @@ jobs:
     - name: Build Release APK
       run: |
         chmod +x gradlew
-        ./gradlew assembleRelease
+        ./gradlew :app:assembleRelease
 
     - name: Sign APK with Android SDK
       run: |
